@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initiaxl-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-...=" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="output.css">
+
+</head>
+
+<body>
+  <main class="grid grid-cols-12 ">
+
+
+    <section
+      class="hidden sm:grid sm:grid-cols-1 bg-gray-50  col-span-2 *:border-transparent h-[100vh]  md:text-[13px] text-[12px] lg:text-[17px] *:pr-1 ">
+      <div class="flex flex-col gap-5">
+
+        <h1 class="font-bold p-2.5 text-[24px] mt-1.5">TaskHub</h1>
+        <div class="flex flex-col gap-1 *:border-transparent ">
+          <a href="#" class="border p-3 hover:bg-gray-200 rounded-2xl  ml-1"> <i class="fa-solid fa-house "></i>
+            Dashboard</a>
+          <a href="#" class="border p-3 hover:bg-gray-200 rounded-2xl  ml-1"> <i
+              class="fa-solid fa-square-check mr-0.5"></i>Tasks</a>
+          <a href="#" class="border p-3 hover:bg-gray-200 rounded-2xl  ml-1"><i
+              class="fa-solid fa-calendar-days mr-0.5"></i>Calender</a>
+          <a href="#" class="border p-3 hover:bg-gray-200 rounded-2xl  ml-1"><i
+              class="fa-solid fa-message mr-0.5"></i>Messages</a>
+          <a href="#" class="border p-3 hover:bg-gray-200 rounded-2xl  ml-1"> <i
+              class="fa-solid fa-people-group mr-0.5"></i> Team</a>
+          <a href="#" class="border p-3 hover:bg-gray-200 rounded-2xl  ml-1 "> <i class="fa-solid fa-gear mr-0.5 "></i>
+            Settings</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="col-span-12 sm:col-start-3 sm:col-end-13">
+      <div class="sm:hidden">
+        <div class="flex m-2 gap-4 text-xl items-center ">
+          <h1 class="font-bold ">≡</h1>
+          <h1 class="font-bold">TaskHub</h1>
+        </div>
+      </div>
+
+      <div class="flex justify-between p-2 ">
+        <div>
+          <h1 class="font-bold text-xl sm:text-2xl sm:font-black">Dashboard</h1>
+          <p>Welcome Back, Sabir 👍</p>
+        </div>
+        <div class="flex items-center gap-3.5">
+          <input type="text" placeholder="⌕ Search Tasks.."
+            class="border border-gray-300 p-2 rounded-xl h-8 hidden sm:block">
+
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkpkZYmNOBZ3UoxNe_s1_zoHMaONdXCdCcR0WTQOqWpg&s=10"
+            alt="" class="h-8 rounded-full relative bottom-14 sm:bottom-0">
+        </div>
+      </div>
+
+      <div
+        class="grid grid-cols-2 sm:grid-cols-4 gap-4 ml-2.5 *:border-gray-300 p-2.5 *:p-4 *:text-xl *:rounded-xl *:sm:text-[15px] *:text-[15px] *:h-24 ">
+        <div class="border h-32 ">
+          <i class="fa-solid fa-calendar"></i>
+          <h1>12</h1>
+          <p>Total Tasks</p>
+        </div>
+        <div class="border h-32 ">
+          <i class="fa-regular fa-circle-check"></i>
+          <h1>8</h1>
+          <p>Completed</p>
+        </div>
+        <div class="border h-32 ">
+          <i class="fa-solid fa-clock-rotate-left"></i>
+          <h1>3</h1>
+          <p>In Progress</p>
+        </div>
+        <div class="border h-32 ">
+          <i class="fa-solid fa-comment-dots"></i>
+          <h1>1</h1>
+          <p>In Pending</p>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="grid grid-cols-1 sm:grid-cols-5 ">
+
+
+        <div class="grid col-span-3">
+          <div
+            class="border rounded-xl border-gray-300 m-6 *:text-[10px] *:sm:text-[8px] *:md:text-[10px] *:lg:text-[13px] ">
+
+            <div class="flex justify-between p-5">
+              <h1 class="font-bold text-xl">Recent Task</h1>
+              <p>View All <i class="fa-solid fa-arrow-right-long"></i></p>
+            </div>
+
+
+
+            <div class="flex px-8 items-center justify-between">
+              <div class="flex items-center gap-4">
+                <input type="checkbox" class"">
+
+                <div class="">
+                  <p class="font-semibold ">Design dashboard UI</p>
+                  <p class="">Today</p>
+                </div>
+              </div>
+              <p class=" border rounded-xl p-1.5 px-1">Completed</p>
+            </div>
+            <hr class="mx-11 text-gray-300 my-2">
+
+
+
+
+            <div class="flex px-8 items-center justify-between">
+              <div class="flex items-center gap-4">
+                <input type="checkbox" class"">
+
+                <div class="">
+                  <p class="font-semibold ">Build responsive layout</p>
+                  <p class="">Tomorrow</p>
+                </div>
+              </div>
+              <p class=" border rounded-xl p-1.5 px-1">In Progress</p>
+            </div>
+            <hr class="mx-11 text-gray-300 my-2">
+
+
+
+
+
+            <div class="flex px-8 items-center justify-between">
+              <div class="flex items-center gap-4">
+                <input type="checkbox" class"">
+
+                <div class="">
+                  <p class="font-semibold ">Integrate API</p>
+                  <p class="">Oct 28</p>
+                </div>
+              </div>
+              <p class=" border rounded-xl p-1.5 px-1">Pending</p>
+            </div>
+            <hr class="mx-11 text-gray-300 my-2">
+
+
+
+
+
+            <div class="flex px-8 items-center justify-between">
+              <div class="flex items-center gap-4">
+                <input type="checkbox" class"">
+
+                <div class="">
+                  <p class="font-semibold ">Write Documnetation</p>
+                  <p class="">Oct 30</p>
+                </div>
+              </div>
+              <p class=" border rounded-xl p-1.5 px-1">Penging</p>
+            </div>
+            <hr class="mx-11 text-gray-300 my-2">
+
+
+
+
+
+            <div class="flex px-8 items-center justify-between ">
+              <div class="flex items-center gap-4">
+                <input type="checkbox" class"">
+
+                <div class="">
+                  <p class="font-semibold">Fix mobile navigation</p>
+                  <p class="">Nov 2</p>
+                </div>
+              </div>
+              <p class=" border rounded-xl p-1.5 px-1">In progress</p>
+            </div>
+            <hr class="mx-11 text-gray-300 my-2">
+
+ 
+
+
+          </div>
+        </div>
+
+
+       
+        <div class="grid col-span-2 border border-gray-300 rounded-xl mx-6 sm:my-6 sm:ml-0 ">
+          <div class="*:text-[10px] *:sm:text-[8px] *:md:text-[10px] *:lg:text-[13px] *:px-3.5 *:py-1 *:items-center *flex ">
+
+            <div class="flex justify-between"> <h1 class="font-bold text-[13px]">Upcoming</h1> <p>View All <i class="fa-solid fa-arrow-right-long"></i> </p> </div>
+            
+            <div class="flex gap-5"> <div class="flex flex-col items-center border bg-gray-200 px-2.5 py-1 rounded-xl border-transparent"><h1 class="font-bold">26</h1><p>Oct</p></div>  
+            <div><h1 class="font-bold text-sm sm:text-[13px]">Team meating</h1><p class="text-s sm:text-[9px]">10:00 AM - 11:00 AM</p></div>
+             </div>
+            <hr class="mx-4 text-gray-300">
+
+
+          <div class="flex gap-5"> <div class="flex flex-col items-center border bg-gray-200 px-2.5 py-1 rounded-xl border-transparent"><h1 class="font-bold">27</h1><p>Oct</p></div>  
+            <div><h1 class="font-bold text-sm sm:text-[13px]">Project Review</h1><p class="text-s sm:text-[9px]">02:00 PM - 03:00 PM</p></div>
+             </div>
+            <hr class="mx-4 text-gray-300">
+
+              
+                  <div class="flex gap-5"> <div class="flex flex-col items-center border bg-gray-200 px-2.5 py-1 rounded-xl border-transparent"><h1 class="font-bold">30</h1><p>Oct</p></div>  
+            <div><h1 class="font-bold text-sm sm:text-[13px]">Submit Report</h1><p class="text-s sm:text-[9px]">All Day</p></div>
+             </div>
+            <hr class="mx-4 text-gray-300">
+
+
+
+                <div class="flex gap-5"> <div class="flex flex-col items-center border bg-gray-200 px-2.5 py-1 rounded-xl border-transparent"><h1 class="font-bold">02</h1><p>Nov</p></div>  
+            <div><h1 class="font-bold text-sm sm:text-[13px]">Client Call</h1><p class="text-s sm:text-[9px]">11:00 AM - 12:00 PM</p></div>
+             </div>
+            <hr class="mx-4 text-gray-300">
+
+
+                <div class="flex gap-5"> <div class="flex flex-col items-center border bg-gray-200 px-2.5 py-1 rounded-xl border-transparent"><h1 class="font-bold">05</h1><p>Nov</p></div>  
+            <div><h1 class="font-bold text-sm sm:text-[13px]">Sprint Planning</h1><p class="text-s sm:text-[9px]">03:00 PM - 04:00 PM</p></div>
+             </div>
+            <hr class="mx-4 text-gray-300">
+
+
+        </div>
+      </div>
+     
+      </div>
+  
+      <div>
+
+
+
+
+
+        <div class="border mx-6 rounded-xl border-gray-300">
+
+
+
+
+          <div class="flex flex-col items-center sm:flex sm:flex-row sm:justify-between px-4 py-2 rounded-xl gap-1.5">
+          <h1 class="font-bold">My tasks</h1>
+          <div class="flex gap-3 text-[10px] *:border *:bg-gray-300 *:rounded-xl *:px-1 *:border-transparent *:py-1 *:active:bg-gray-700 *:hover:bg-gray-700 *:focus:bg-gray-700 *:hover:text-white *:focus:text-white  *:sm:px-5">
+            <a href="#">All</a>
+            <a href="#">Completed</a>
+            <a href="#">In Progress</a>
+            <a href="#">Pending</a>
+          </div>
+
+
+
+
+           </div> 
+
+        <hr class="text-gray-300 my-2.5 mx-3.5">
+        
+          <div class="flex px-3 items-center justify-between *:sm:flex">
+              <div class="flex items-center gap-1.5 ">
+                <input type="checkbox" class"">
+
+                <div class="flex flex-col sm:flex-row sm:gap-24">
+                  <p class="font-semibold text-[12px] sm:text-[14px]">Design Dashboard UI</p>
+                  <p class="text-gray-400 text-sm sm:text-[14px]">Today</p>
+                </div>
+              </div>
+              <p class=" border rounded-md p-1.5 px-1 text-[11px] sm:px-4 bg-gray-100 border-transparent">Completed</p>
+              <p>⋮</p>
+            </div>
+
+           <hr class="text-gray-300 my-2.5 mx-3.5">
+
+             <div class="flex px-3 items-center justify-between *:sm:flex">
+              <div class="flex items-center gap-1.5 ">
+                <input type="checkbox" class"">
+
+                <div class="flex flex-col sm:flex-row sm:gap-24">
+                  <p class="font-semibold text-[12px] sm:text-[14px]">Build Responsive Layout</p>
+                  <p class="text-gray-400 text-sm sm:text-[14px]">Tomorrow</p>
+                </div>
+              </div>
+              <p class=" border rounded-md p-1.5 px-1 text-[11px] sm:px-4 bg-gray-100 border-transparent">In Progress</p>
+              <p>⋮</p>
+            </div>
+
+           <hr class="text-gray-300 my-2.5 mx-3.5">
+
+
+
+           
+
+              <div class="flex px-3 items-center justify-between *:sm:flex">
+              <div class="flex items-center gap-1.5 ">
+                <input type="checkbox" class"">
+
+                <div class="flex flex-col sm:flex-row sm:gap-24">
+                  <p class="font-semibold text-[12px] sm:text-[14px]">Integrate API</p>
+                  <p class="text-gray-400 text-sm sm:text-[14px]">Oct 28</p>
+                </div>
+              </div>
+              <p class=" border rounded-md p-1.5 px-1 text-[11px] sm:px-4 bg-gray-100 border-transparent">Pending</p>
+              <p>⋮</p>
+            </div>
+
+           <hr class="text-gray-300 my-2.5 mx-3.5">
+
+
+             <div class="flex px-3 items-center justify-between *:sm:flex">
+              <div class="flex items-center gap-1.5 ">
+                <input type="checkbox" class"">
+
+                <div class="flex flex-col sm:flex-row sm:gap-24">
+                  <p class="font-semibold text-[12px] sm:text-[14px]">Write Documnetation</p>
+                  <p class="text-gray-400 text-sm sm:text-[14px]">Oct 30</p>
+                </div>
+              </div>
+              <p class=" border rounded-md p-1.5 px-1 text-[11px] sm:px-4 bg-gray-100 border-transparent">Pending</p>
+              <p>⋮</p>
+            </div>
+
+           <hr class="text-gray-300 my-2.5 mx-3.5">
+
+
+
+             <div class="flex px-3 items-center justify-between *:sm:flex">
+              <div class="flex items-center gap-1.5 ">
+                <input type="checkbox" class"">
+
+                <div class="flex flex-col sm:flex-row sm:gap-24">
+                  <p class="font-semibold text-[12px] sm:text-[14px]">Fix Mobile Navigation</p>
+                  <p class="text-gray-400 text-sm sm:text-[14px]">Nov 02</p>
+                </div>
+              </div>
+              <p class=" border rounded-md p-1.5 px-1 text-[11px] sm:px-4 bg-gray-100 border-transparent">In Progress</p>
+              <p>⋮</p>
+            </div>
+
+           <hr class="text-gray-300 my-2.5 mx-3.5">
+
+
+        </div>
+
+
+
+
+
+
+      </div>
+
+    </section>
+
+
+
+
+
+  </main>
+</body>
+
+</html>
